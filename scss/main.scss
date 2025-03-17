@@ -1,4 +1,4 @@
-$color: #AFA077;
+$black: #000;
 
 html {
   background-color: #fff;
@@ -13,15 +13,13 @@ body {
 }
 
 header {
-  background-image: url(../images/header.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
   padding: 3rem 0;
-  margin-bottom: 0!important;
   .column.parent {
     background-color: rgba(0, 0, 0, 0.3);
-    margin: 9rem 0;
-    padding: 6rem 5rem;
+    margin: 6rem 0;
+    padding: 9rem 5rem;
   }
   h1 {
     color: #fff;
@@ -32,9 +30,7 @@ header {
 }
 
 h2 {
-  color: $color;
   &.title {
-    color: $color;
     font-size: 1.5rem;
     font-weight: 900;
     letter-spacing: -1px;
@@ -42,9 +38,9 @@ h2 {
 }
 
 hr {
-  &.is-color {
-    background-color: $color;
-    border-top: 9px solid $color;
+  &.is-black {
+    background-color: $black;
+    border-top: 9px solid #000;
   }
 }
 
@@ -60,43 +56,42 @@ hr {
         background-position: center center;
       }
       &.bck1 {
-        background-image: url(https://img.youtube.com/vi/Kt5eQI8CvCs/0.jpg);
+        background-image: url(../images/video-1.jpeg);
       }
       &.bck2 {
-        background-image: url(https://img.youtube.com/vi/vJLqHeCz5s8/0.jpg);
+        background-image: url(../images/video-2.jpeg);
       }
       &.bck3 {
-        background-image: url(https://img.youtube.com/vi/cP8alms1Fqw/0.jpg);
+        background-image: url(../images/video-3.jpeg);
       }
       &.bck4 {
-        background-image: url(https://img.youtube.com/vi/bKjll3P4lZQ/0.jpg);
+        background-image: url(../images/video-4.jpeg);
       }
       &.bck5 {
-        background-image: url(https://img.youtube.com/vi/EHvpy81mzoY/0.jpg);
+        background-image: url(../images/video-5.jpeg);
       }
       &.bck6 {
-        background-image: url(https://img.youtube.com/vi//0.jpg);
+        background-image: url(../images/video-6.jpeg);
       }
       &.bck7 {
-        background-image: url(https://img.youtube.com/vi//0.jpg);
+        background-image: url(../images/video-7.jpeg);
       }
     }
     h2 {
-      border-left: 5px solid $color;
+      border-left: 5px solid $black;
       font-weight: 800;
       font-size: 1.5rem;
       line-height: 1.5rem;
       margin: 3rem 0 0 2rem;
       padding-left: 0.5rem;
     }
-    p.content {
-      font-size: .85rem;
+    p {
       margin: 2rem;
     }
   }
   &.with-border {
     .column.feature {
-      border-top: 9px solid $color;
+      border-top: 9px solid $black;
     }
   }
 }
@@ -105,7 +100,7 @@ footer {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   margin-top: 5rem;
-  background-color: $color;
+  background-color: $black;
   height: 4rem;
   padding-top: 1rem;
   a {
